@@ -17,7 +17,7 @@ public class SimpleKafkaApplication {
     @Bean
     CommandLineRunner commandLineRunner(KafkaTemplate<String,String> kafkaTemplate){
         return args -> {
-            kafkaTemplate.send("kafkatopic","hello kafka");
+            kafkaTemplate.send("kafkatopic","hello kafka!");
         };
     }
 
