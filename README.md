@@ -25,24 +25,19 @@ Kafka Binary : kafka_2.13-3.7.0
 
 Clone this repository:
 
-    ```bash
+```bash
     git clone https://github.com/FayeAlangi/SimpleKafka.git
-    ```
+```
 
 
 
 ## Usage
 
-1. Start Kafka server:
+
+1. Start the producer:
 
     ```bash
-    [command to start Kafka server]
-    ```
-
-2. Start the producer:
-
-    ```bash
-    [command to start the producer]
+    Run the Application
     ```
 
 3. Start the consumer:
